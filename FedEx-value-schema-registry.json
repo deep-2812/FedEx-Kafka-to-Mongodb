@@ -1,0 +1,30 @@
+{
+    "fields": [
+      {
+        "name": "shipment_id",
+        "type": "string"
+      },
+      {
+        "name": "origin",
+        "type": "string"
+      },
+      {
+        "name": "destination",
+        "type": "string"
+      },
+      {
+        "name": "status",
+        "type": "string"
+      },
+      {
+        "name": "timestamp",
+        "type": {
+          "logicalType": "timestamp-millis",
+          "type": "long"
+        }
+      }
+    ],
+    "name": "fedEx",
+    "namespace": "com.assignment.fedex",
+    "type": "record"
+  }
